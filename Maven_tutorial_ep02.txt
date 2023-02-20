@@ -1,3 +1,7 @@
+
+mvn archetype:generate –DgroupId=com.devops.demo –DartifactId=MavenJavaProject –DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-jar-plugin</artifactId>
