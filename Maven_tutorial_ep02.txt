@@ -1,6 +1,8 @@
-
+# how to use maven archetype toolkit for generating sample java project using below command.
 mvn archetype:generate –DgroupId=com.devops.demo –DartifactId=MavenJavaProject –DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
+#Below section can be used in pom.xml to make your jar executable and launch your jar file using command.
+java -jar <output-jarname.jar>
 
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
